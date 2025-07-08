@@ -9,7 +9,7 @@ double HYDROFUN_MOI2PSI_WITH_SALINITY(double moi, double psi_porosity, double b,
 moi - Soil moisture (units: m3/m3)
 psi_porosity - porosity potential (units: MPa)
 b - retention parameter
-temp - soil water temperature (units: K)
+temp - soil water temperature (units: K)dd
 */
  
 double psi=psi_porosity*(pow((1/moi),b));
